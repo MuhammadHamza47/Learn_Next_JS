@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner1.png); */
+    background-image: linear-gradient(#517e86c4, #949fdf1a), url(../public/img/banner1.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -399,7 +399,7 @@ p {
 .cta {
     margin: 100px auto;
     width: 80%;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(img/back1.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../public/img/back1.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -474,8 +474,8 @@ hr {
 .Sub-header {
     height: 50vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
-    url(img/banner.png); */
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+    url('../public/img/banner.png');
     background-position: center;
     background-size: cover;
     text-align: center;

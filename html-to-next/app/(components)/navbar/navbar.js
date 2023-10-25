@@ -1,12 +1,8 @@
 import Link from 'next/link'
 
 export default function Navbar() {
- let objStyle = {
-    backgroundColor: 'black',
-    color: 'white'
- }
   return (
-    <nav style={objStyle}>
+    <nav>
             <Link href="/" className="logo">Xplore
                 <i className="fab fa-staylinked"></i>kill
             </Link>
