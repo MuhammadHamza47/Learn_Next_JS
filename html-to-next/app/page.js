@@ -8,7 +8,10 @@ import TextCard from "./courses/(components)/textcard/textcard";
 export default function Home() {
   return (
     <>
+    {/* Header Section */}
       <HomeHeader />
+
+      {/* course Section */}
       <section class="course">
         <HomeTitle title={`EXPLORE OUR 60+ \n MAJOR PROGRAMS`} />
 
@@ -18,6 +21,8 @@ export default function Home() {
           <TextCard title="Adult Learning & Degree Completion" />
         </div>
       </section>
+        
+        {/* Campus Section */}
 
       <section class="campus">
 
@@ -29,6 +34,7 @@ export default function Home() {
           <CampusImage source="/img/campus3.png" /> 
         </div> 
     </section>
+    {/* Facilities section */}
 
     <section class="facilities">
         <HomeTitle title="OUR FACILITIES"/>
@@ -39,6 +45,8 @@ export default function Home() {
          <ImageCard source='/img/food.png' title="Tasty and Healthy Food" />
         </div>
     </section>
+      
+      {/* Testimonials section */}
 
     <section class="testimonials">
     
@@ -49,6 +57,8 @@ export default function Home() {
       <StudentCard/>
       </div>
     </section>
+      
+      {/* contact section */}
 
     <section class="cta">
         <h1>GET READY FOR A BRIGHT FUTURE</h1>
