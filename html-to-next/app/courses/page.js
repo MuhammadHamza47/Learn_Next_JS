@@ -4,8 +4,10 @@ import ImageCard from "./(components)/imgcard/imagecard";
 export default function Courses() {
   return (
     <>
+      {/* Header Section */}
       <Header title="Our Courses" />
 
+      {/* Course Section */}
       <section class="course">
         <h1>Course We Offer</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -16,6 +18,8 @@ export default function Courses() {
           <TextCard title="Adult Learning & Degree Completion" />
         </div>
       </section>
+        
+        {/* Facilities section */}
 
       <section class="facilities">
         <h1>Best Courses</h1>
