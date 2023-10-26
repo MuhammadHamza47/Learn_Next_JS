@@ -5,7 +5,10 @@ import Button from "../(components)/button/button"
 export default function Blog() {
   return (
     <>
+    {/* Header Section */}
     <Header title='Our Post' />
+
+    {/* blog Section */}
     <section className="blog-content">
     <div className="row">
         <div className="blog-left">
