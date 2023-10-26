@@ -5,7 +5,10 @@ import Header from "../(components)/header/header";
 export default function About() {
   return (
     <>
+    {/* Header Section */}
       <Header title='About Us' />
+
+      {/* About Section */}
       <section class="about-us">
         <div class="row">
           <div class="about-col">
