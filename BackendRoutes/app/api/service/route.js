@@ -10,7 +10,7 @@ export const GET = () =>{
     console.log("GET called");
     return NextResponse.json(services);
 }
-
+// Post api request
 export const POST = async (req) =>{
     const body = await req.json();
     console.log("body", body);
